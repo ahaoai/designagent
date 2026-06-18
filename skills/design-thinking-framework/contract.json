@@ -1,0 +1,29 @@
+{
+  "name": "Design Thinking Framework",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["empathize", "define", "ideate", "prototype", "test"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["problem_statement"],
+      "optional": ["user_data", "previous_solutions"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Do not skip empathize step — start with user understanding",
+    "Define problem as human-centered POV before ideating",
+    "Generate quantity in ideate before converging",
+    "Prototype at low fidelity — build to learn, not to present",
+    "Test with real user behavior observation"
+  ]
+}

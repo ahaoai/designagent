@@ -1,0 +1,7 @@
+{
+  "id": "06-deliver",
+  "name": "Deliver — Production & Handoff",
+  "type": "skill",
+  "description": "Finalize production files, write specifications, hand off to development or production.",
+  "execution_ref": "contract.json#entry.steps"
+}

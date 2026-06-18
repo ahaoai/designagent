@@ -1,0 +1,28 @@
+{
+  "name": "Learn — Verify & Archive",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["verification", "archive", "retrospective", "asset_extraction", "memory_save"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["deliverables", "design_brief"],
+      "optional": ["project_notes"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "session",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Audit every deliverable against original brief and success criteria",
+    "Do not skip retrospective — document what worked and what didn't",
+    "Extract reusable assets for future projects",
+    "Do not modify archived deliverables after extraction"
+  ]
+}

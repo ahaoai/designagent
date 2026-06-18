@@ -1,0 +1,7 @@
+{
+  "id": "using-designagent",
+  "name": "Using DesignAgent — Entry & Router",
+  "type": "skill",
+  "description": "Route brand, interior, UI/UX, industrial, AI image, video, and other design work through the appropriate methodology.",
+  "execution_ref": "contract.json#entry.steps"
+}

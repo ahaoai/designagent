@@ -1,0 +1,7 @@
+{
+  "id": "04-generate",
+  "name": "Generate — Concept & Prototype",
+  "type": "skill",
+  "description": "Generate concepts, explore visual directions, prototype, and iterate.",
+  "execution_ref": "contract.json#entry.steps"
+}

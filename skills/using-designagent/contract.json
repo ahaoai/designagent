@@ -1,0 +1,28 @@
+{
+  "name": "Using DesignAgent — Entry & Router",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["task_identification", "workflow_selection", "domain_routing", "first_step_instruction"]
+  },
+  "io": {
+    "input": {
+      "type": "unstructured",
+      "required": ["task_description"],
+      "optional": ["domain_preference"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "session",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Always classify the task before routing",
+    "Recommend at least one A-layer workflow step",
+    "Do not execute design work directly — route only",
+    "Output the first step instruction for the user to begin"
+  ]
+}

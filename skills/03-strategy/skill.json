@@ -1,0 +1,7 @@
+{
+  "id": "03-strategy",
+  "name": "Strategy — Direction Setting",
+  "type": "skill",
+  "description": "Set creative direction, define positioning, and establish criteria before generating concepts.",
+  "execution_ref": "contract.json#entry.steps"
+}

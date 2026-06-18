@@ -1,0 +1,7 @@
+{
+  "id": "designing-with-ai",
+  "name": "Designing with AI — Image Generation",
+  "type": "skill",
+  "description": "Incorporate AI into any design phase — mood boards, concept imagery, color palettes, layout variations.",
+  "execution_ref": "contract.json#entry.steps"
+}

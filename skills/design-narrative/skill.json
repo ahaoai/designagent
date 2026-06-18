@@ -1,0 +1,7 @@
+{
+  "id": "design-narrative",
+  "name": "Design Narrative & Presentation",
+  "type": "skill",
+  "description": "Structure design story, build persuasive rationale, defend decisions with reasoning not just taste.",
+  "execution_ref": "contract.json#entry.steps"
+}

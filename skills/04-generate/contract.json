@@ -1,0 +1,28 @@
+{
+  "name": "Generate — Concept & Prototype",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["concept_divergence", "prototype_build", "ai_generation", "refinement", "freeze"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["strategy_direction"],
+      "optional": ["reference_images", "style_preferences"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "session",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Generate at least 3 distinct concepts per direction",
+    "Each concept must include name, rationale, and risk",
+    "Do not skip prototyping before refinement",
+    "Refine based on brief criteria, not personal preference"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Architecture Design",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["site_context", "programming", "massing_parti", "spatial_concept", "environmental_strategy"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["project_brief"],
+      "optional": ["site_data", "zoning_info"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Analyze site climate and zoning before massing",
+    "Massing parti must respond to site analysis and program",
+    "Include environmental strategy in every concept",
+    "Do not skip spatial sequence and section design"
+  ]
+}

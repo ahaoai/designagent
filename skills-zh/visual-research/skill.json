@@ -1,0 +1,7 @@
+{
+  "id": "visual-research",
+  "name": "Visual Research",
+  "type": "skill",
+  "description": "Collect, analyze, and organize visual references, mood boards, competitor imagery, and inspiration.",
+  "execution_ref": "contract.json#entry.steps"
+}

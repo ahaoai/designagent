@@ -1,0 +1,28 @@
+{
+  "name": "Discover — Research & Define",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["user_research", "market_analysis", "competitive_audit", "context_mapping", "synthesis", "brief_approval"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["project_brief"],
+      "optional": ["existing_research", "user_data"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "session",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Do not skip user research — at minimum identify 3 user needs",
+    "Do not fabricate research data",
+    "Competitive landscape must include at least 2 peers",
+    "Obtain user approval on design brief before proceeding"
+  ]
+}

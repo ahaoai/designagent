@@ -1,0 +1,28 @@
+{
+  "name": "Project Intake",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["brief_collection", "stakeholder_mapping", "constraint_surface", "success_criteria", "alignment_check"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["project_name", "client_info"],
+      "optional": ["existing_assets", "timeline", "budget"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "session",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Do not proceed without explicit client alignment",
+    "Do not fabricate stakeholder information",
+    "All constraints must be documented before entering discovery",
+    "Success criteria must be measurable or observable"
+  ]
+}

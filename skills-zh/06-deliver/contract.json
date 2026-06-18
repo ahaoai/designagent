@@ -1,0 +1,28 @@
+{
+  "name": "Deliver — Production & Handoff",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["proposal_narrative", "systemization", "handoff_package", "delivery_checklist"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["approved_design"],
+      "optional": ["delivery_format_requirements"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "session",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Do not skip the systemization step before handoff",
+    "Handoff package must be usable without the original designer",
+    "Complete all delivery checklist items before marking done",
+    "Use consistent naming and organization for production files"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "UI/UX Design",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["user_research", "information_architecture", "wireframe_flows", "visual_direction", "design_system", "usability_test"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["product_goal"],
+      "optional": ["existing_product", "user_data"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Research users before defining information architecture",
+    "Include accessibility annotations in wireframes",
+    "Build design system tokens, not just visual mockups",
+    "Conduct usability testing with task-based scenarios"
+  ]
+}

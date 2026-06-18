@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DesignAgent Skill Schema",
+  "type": "object",
+  "required": ["id", "name", "input", "output", "instructions"],
+  "properties": {
+    "id": { "type": "string", "description": "unique skill id" },
+    "name": { "type": "string" },
+    "type": { "type": "string", "enum": ["skill"] },
+    "input": {
+      "type": "object",
+      "required": ["required"],
+      "properties": {
+        "required": { "type": "array", "items": { "type": "string" } },
+        "optional": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "output": {
+      "type": "object",
+      "required": ["format", "sections"],
+      "properties": {
+        "format": { "type": "string", "enum": ["structured_text"] },
+        "sections": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "instructions": { "type": "array", "items": { "type": "string" } }
+  }
+}

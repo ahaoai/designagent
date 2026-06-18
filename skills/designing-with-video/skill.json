@@ -1,0 +1,7 @@
+{
+  "id": "designing-with-video",
+  "name": "Designing with Video",
+  "type": "skill",
+  "description": "Create motion design, animation, video content, or motion mood boards.",
+  "execution_ref": "contract.json#entry.steps"
+}
