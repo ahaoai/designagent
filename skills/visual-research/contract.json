@@ -1,0 +1,28 @@
+{
+  "name": "Visual Research",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["competitive_visual_audit", "style_spectrum_map", "mood_board_curation", "trend_analysis", "positioning"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["design_context"],
+      "optional": ["style_references", "competitor_visuals"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Survey at least 5 competitors for visual landscape",
+    "Do not skip trend analysis before positioning",
+    "Propose at least 2 available aesthetic territories",
+    "Do not fabricate visual references — use provided data only"
+  ]
+}

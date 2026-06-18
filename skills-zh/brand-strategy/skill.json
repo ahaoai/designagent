@@ -1,0 +1,7 @@
+{
+  "id": "brand-strategy",
+  "name": "Brand Strategy",
+  "type": "skill",
+  "description": "Brand positioning, identity, platform, naming, visual identity systems, guidelines, and rebranding.",
+  "execution_ref": "contract.json#entry.steps"
+}

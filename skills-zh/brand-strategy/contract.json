@@ -1,0 +1,28 @@
+{
+  "name": "Brand Strategy",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["brand_audit", "positioning", "platform_build", "personality_tone", "identity_direction"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["brief", "domain"],
+      "optional": ["existing_brand_assets", "competitors"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Audit current brand perception before defining position",
+    "Apply at least one strategic model (Keller, Kapferer, or Aaker)",
+    "Identity direction must be grounded in strategy",
+    "Do not fabricate brand audit data"
+  ]
+}

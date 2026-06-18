@@ -1,0 +1,7 @@
+{
+  "id": "07-learn",
+  "name": "Learn — Verify & Archive",
+  "type": "skill",
+  "description": "Verify work against brief, audit for quality, document insights, and close the project.",
+  "execution_ref": "contract.json#entry.steps"
+}

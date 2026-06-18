@@ -1,0 +1,7 @@
+{
+  "id": "industrial-design",
+  "name": "Industrial Design",
+  "type": "skill",
+  "description": "Product design, industrial design, physical product development, manufacturing, and hardware design.",
+  "execution_ref": "contract.json#entry.steps"
+}

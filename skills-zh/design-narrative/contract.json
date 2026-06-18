@@ -1,0 +1,28 @@
+{
+  "name": "Design Narrative & Presentation",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["structure_arc", "context_setting", "insight_bridge", "solution_showcase", "impact_close"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["design_work"],
+      "optional": ["presentation_format", "audience_type"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Structure story as context, insight, strategy, solution, impact",
+    "Connect every design decision to research",
+    "Adapt format to audience — client, stakeholder, or portfolio",
+    "Do not fabricate impact evidence"
+  ]
+}

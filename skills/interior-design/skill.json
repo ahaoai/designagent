@@ -1,0 +1,7 @@
+{
+  "id": "interior-design",
+  "name": "Interior Design",
+  "type": "skill",
+  "description": "Interior design, space planning, FF&E, lighting, atmosphere, and inhabited interior spaces.",
+  "execution_ref": "contract.json#entry.steps"
+}

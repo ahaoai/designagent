@@ -1,0 +1,28 @@
+{
+  "name": "Industrial Design",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["user_context", "ergonomics", "form_exploration", "material_manufacturing", "cmf_spec", "production_handoff"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["product_brief"],
+      "optional": ["manufacturing_constraints", "material_preferences"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Research user context and ergonomics before form exploration",
+    "Apply DFMA analysis in material and manufacturing strategy",
+    "CMF must include supplier-verified specifications",
+    "Production handoff must include technical drawings and tolerances"
+  ]
+}

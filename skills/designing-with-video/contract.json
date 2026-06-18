@@ -1,0 +1,28 @@
+{
+  "name": "Designing with Video",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["define_purpose", "storyboard", "audio_strategy", "generate_clips", "assemble_review"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["video_brief"],
+      "optional": ["storyboard", "reference_videos"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Define video purpose before storyboarding",
+    "Do not skip audio strategy",
+    "Review final edit against storyboard",
+    "Export for target platform format"
+  ]
+}

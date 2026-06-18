@@ -1,0 +1,7 @@
+{
+  "id": "architecture-design",
+  "name": "Architecture Design",
+  "type": "skill",
+  "description": "Architectural design, building design, spatial planning, structural concepts, and environmental design.",
+  "execution_ref": "contract.json#entry.steps"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "01-intake",
+  "name": "Project Intake",
+  "type": "skill",
+  "description": "Entry point for new design projects — gather context, constraints, stakeholders, and goals before entering the design process.",
+  "execution_ref": "contract.json#entry.steps"
+}

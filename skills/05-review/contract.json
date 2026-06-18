@@ -1,0 +1,28 @@
+{
+  "name": "Review — Critique & Iterate",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["strategic_review", "functional_review", "aesthetic_review", "execution_review", "iteration_plan"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["design_outputs", "design_brief"],
+      "optional": ["previous_review_notes"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "session",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Review at all four levels — strategic, functional, aesthetic, execution",
+    "Compare every output against the original design brief",
+    "Do not skip documenting what passed and what needs iteration",
+    "Iteration plan must have specific improvement targets"
+  ]
+}

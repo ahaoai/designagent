@@ -1,0 +1,28 @@
+{
+  "name": "Interior Design",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["site_analysis", "space_program", "layout_planning", "atmosphere_concept", "material_lighting", "ffe_schedule"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["client_brief"],
+      "optional": ["site_conditions", "reference_images"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Analyze site conditions before space programming",
+    "Include bubble diagrams and adjacency in layout",
+    "Material and lighting must tie to atmosphere concept",
+    "FF&E must include budget allocations"
+  ]
+}

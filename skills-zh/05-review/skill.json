@@ -1,0 +1,7 @@
+{
+  "id": "05-review",
+  "name": "Review — Critique & Iterate",
+  "type": "skill",
+  "description": "Critique, gather feedback, validate against brief, and refine before delivery.",
+  "execution_ref": "contract.json#entry.steps"
+}

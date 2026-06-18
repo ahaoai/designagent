@@ -1,0 +1,7 @@
+{
+  "id": "ui-ux-design",
+  "name": "UI/UX Design",
+  "type": "skill",
+  "description": "User interface, user experience, product design, interaction design, and digital product design.",
+  "execution_ref": "contract.json#entry.steps"
+}

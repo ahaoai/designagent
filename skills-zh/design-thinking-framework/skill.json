@@ -1,0 +1,7 @@
+{
+  "id": "design-thinking-framework",
+  "name": "Design Thinking Framework",
+  "type": "skill",
+  "description": "Tackle ambiguous, human-centered innovation problems using the 5-stage IDEO/Stanford process.",
+  "execution_ref": "contract.json#entry.steps"
+}

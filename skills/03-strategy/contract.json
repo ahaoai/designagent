@@ -1,0 +1,28 @@
+{
+  "name": "Strategy — Direction Setting",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["strategic_framing", "direction_divergence", "direction_comparison", "selection"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["design_brief"],
+      "optional": ["brand_guidelines", "visual_references"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "session",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Generate at least 2 distinct directions, never 1",
+    "Present directions side by side without ranking",
+    "Each direction must include rationale and risk assessment",
+    "Do not skip strategic framing before diverging"
+  ]
+}

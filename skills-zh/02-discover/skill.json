@@ -1,0 +1,7 @@
+{
+  "id": "02-discover",
+  "name": "Discover — Research & Define",
+  "type": "skill",
+  "description": "Research users, context, competitors, and constraints. First divergence phase.",
+  "execution_ref": "contract.json#entry.steps"
+}

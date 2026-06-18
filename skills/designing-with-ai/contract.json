@@ -1,0 +1,28 @@
+{
+  "name": "Designing with AI — Image Generation",
+  "version": "1.0.0",
+  "entry": {
+    "type": "sequential",
+    "steps": ["define_visual_intent", "build_reference_system", "design_prompt_strategy", "generate_options", "curate_output"]
+  },
+  "io": {
+    "input": {
+      "type": "structured",
+      "required": ["design_intent"],
+      "optional": ["reference_images", "style_keywords"]
+    },
+    "output": {
+      "formats": ["structured_text"]
+    }
+  },
+  "runtime": {
+    "mode": "stateless",
+    "execution": "prompt-driven"
+  },
+  "constraints": [
+    "Define visual intent in design terms before crafting prompts",
+    "Do not skip prompt strategy before generating",
+    "Curate outputs against design criteria, not personal preference",
+    "Do not fabricate generated image descriptions"
+  ]
+}
